@@ -1,7 +1,8 @@
 * {margin: 0; padding: 0; box-sizing: border-box}
-
 body {
 	background-color: #f0edec;
+	font-family: Garamond, serif;
+	font-size: 20px;
 }
 
 h1, h2, h3, h4 {
@@ -17,7 +18,6 @@ h1{
 h2{
 	font-size: 40px;
 }
-
 h3{
 	font-size: 30px;
 	margin-top: 50px;
@@ -29,22 +29,16 @@ h4{
 }
 
 p {
-	font-family: Garamond, serif;
-	font-size: 20px;
 	color:#CD5360;
 }
 
 a {
-	font-family: Garamond, serif;
-	font-size: 20px;
 	font-style: italic;
 	text-decoration: none;
 	color: #429991;
 }
 
 ul{
-	font-family: Garamond, serif;
-	font-size: 20px;
 	color:#309292;
 	padding-left: 1.5em;
 }
@@ -54,4 +48,7 @@ img {
     margin: auto;
     margin-top: 50px;
 }
-
+#portfolio img {
+	width:100%;
+	margin:0;
+}
