@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,800);
+@import url(https://fonts.googleapis.com/css?family=Gentium+Basic);
+
+
+* {margin: 0; padding: 0; box-sizing: border-box}
+
+body {
+	background-color: #f0edec;
+	font-family: 'Gentium Basic', serif;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Open Sans', serif; 
+	color: #6d6e71;
+}
+
+h1{
+	font-size: 2.5em;
+	line-height: 1.2em;
+	margin: 50px 0;
+	width: 66.66%;
+}
+
+h2{
+	font-size: 1.5em;
+}
+h3{
+	font-size: 1.2em;
+	margin-top: 50px;
+	font-weight: 600;
+}
+
+p {
+	color:#CD5360;
+}
+
+a {
+	text-decoration:none;
+	color:#429991;
+	border-bottom: 1px solid #429991;
+	padding-bottom:1px;
+}
+
+ul{
+	color:#000000;
+	padding-left: 1.5em;
+	color: #429991;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+#portfolio img {
+	width:30%;
+	margin:0;
+}
+
+footer{
+	background-color: #404041;
+	padding:50px;
+}
