@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,800);
+@import url(https://fonts.googleapis.com/css?family=Neuton:300);
+
+
+* {margin: 0; padding: 0; box-sizing: border-box}
+
+body {
+	background-color: #ffffff;
+	font-family: 'Neuton', Georgia, serif;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+h2, h3, h4 {
+	font-family: 'Open Sans', serif; 
+	color: #6d6e71;
+}
+
+h1{
+	color: #ffffff;
+	font-family: 'Open Sans', serif;
+	font-size: 2.5em;
+	line-height: 1.2em;
+	margin: 50px 0;
+	width: 66.66%;
+}
+
+h2{
+	font-size: 1.5em;
+}
+h3{
+	font-size: 1.2em;
+	margin-top: 50px;
+	font-weight: 600;
+}
+
+p {
+	color:#CD5360;
+	width: 25em;
+	padding-bottom: 1.5em;
+}
+
+a {
+	text-decoration:none;
+	color:#429991;
+	border-bottom: 1px solid #429991;
+	padding-bottom:1px;
+}
+
+ul{
+	color:#000000;
+	color: #429991;
+	list-style-type:none;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding-top: 4em;
+}
+
+footer{
+	background-color: #192025;
+	padding:3em;
+}
+
+#wrapper {
+	background-color: #ffffff;
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+#hero{
+	background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+
+.intro{
+	width: 60%;
+}
+
+#articles{
+	padding-top:3em;
+}
+
+#portfolio img {
+	width:30%;
+	margin:0;
+}
+
