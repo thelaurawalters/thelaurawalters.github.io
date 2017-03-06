@@ -16,28 +16,36 @@ h2, h3, h4 {
 	color: #6d6e71;
 }
 
-h1{
+h1 {
 	color: #ffffff;
 	font-family: 'Open Sans', serif;
 	font-size: 2.5em;
 	line-height: 1.2em;
-	margin: 50px 0;
-	width: 66.66%;
 }
 
-h2{
+h2 {
 	font-size: 1.5em;
+	line-height: 1em;
 }
-h3{
+
+h3 {
 	font-size: 1.2em;
-	margin-top: 50px;
+	padding: .5em 0 0 0;
 	font-weight: 600;
+	line-height: 1em;
+}
+
+h4 {
+	font-size: 1em;
+	padding: .5em 0 0 0;
+	font-weight: 600;
+	line-height: 1em;
 }
 
 p {
 	color:#CD5360;
-	width: 25em;
-	padding-bottom: 1.5em;
+	width: 30em;
+	padding: 1em 0 0 0;
 }
 
 a {
@@ -53,42 +61,64 @@ ul{
 	list-style-type:none;
 }
 
-img {
-    display: block;
-    margin: auto;
-    padding-top: 4em;
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
 }
 
-footer{
-	background-color: #192025;
-	padding:3em;
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
 }
 
-#wrapper {
-	background-color: #ffffff;
-	width: 1170px;
-	margin: 0 auto;
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
 }
 
-.container {
-	width: 1170px;
-	margin: 0 auto;
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
 }
 
-#hero{
-	background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+div, section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 .intro{
-	width: 60%;
+	width: 75%;
 }
 
-#articles{
-	padding-top:3em;
+.promo{
+	width: 30%;
 }
 
-#portfolio img {
-	width:30%;
+#design img {
+	width:100%;
 	margin:0;
+}
+
+header img {
+    display: block;
+    margin: auto;
+    padding: 4em 0;
+}
+
+#design h2 {
+	font-size: 1.2em;
+	padding: .5em 0 0 0;
+	font-weight: 600; 
+}
+
+#design p {
+	width: 25em;
+	font-size: .8em;
+	line-height: 1.5em;
 }
 
