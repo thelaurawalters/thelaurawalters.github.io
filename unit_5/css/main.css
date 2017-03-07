@@ -44,7 +44,6 @@ h4 {
 
 p {
 	color:#CD5360;
-	width: 30em;
 	padding: 1em 0 0 0;
 }
 
@@ -91,23 +90,28 @@ div, section {
     padding: 20px;
 }
 
-.intro{
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+    width: 60%;
+}
+
+.intro {
 	width: 75%;
 }
 
-.promo{
+.promo {
 	width: 30%;
+}
+
+.contact {
+	width: 75%;
 }
 
 #design img {
 	width:100%;
 	margin:0;
-}
-
-header img {
-    display: block;
-    margin: auto;
-    padding: 4em 0;
 }
 
 #design h2 {
@@ -120,5 +124,27 @@ header img {
 	width: 25em;
 	font-size: .8em;
 	line-height: 1.5em;
+}
+
+#primarynav {
+	width: 25%;
+}
+
+#roundabout {
+	width: 40%;
+}
+
+#accessibility {
+	width: 40%;
+}
+
+header img {
+    display: block;
+    margin: auto;
+    padding: 4em 0;
+}
+
+footer nav {
+	width: 25%;
 }
 
