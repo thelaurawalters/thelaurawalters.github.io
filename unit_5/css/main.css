@@ -90,28 +90,31 @@ div, section {
     padding: 20px;
 }
 
-aside {
-    background-color: #FFC675;
-    border: 1px black solid;
-    padding: 20px;
-    width: 60%;
-}
-
 .intro {
 	width: 75%;
 }
 
 .promo {
 	width: 30%;
+	float: left;
+}
+
+.articleinfo {
+	width: 60%;
 }
 
 .contact {
 	width: 75%;
 }
 
+/*#design {
+	width: 1200px;
+	margin: auto;
+}*/
+
 #design img {
 	width:100%;
-	margin:0;
+	margin: 0;
 }
 
 #design h2 {
@@ -138,6 +141,10 @@ aside {
 	width: 40%;
 }
 
+#archive {
+    clear: both;
+}
+
 header img {
     display: block;
     margin: auto;
@@ -146,5 +153,14 @@ header img {
 
 footer nav {
 	width: 25%;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
 
