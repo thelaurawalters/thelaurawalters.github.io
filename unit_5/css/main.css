@@ -61,7 +61,7 @@ ul{
 }
 
 header {
-    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    background-color: #FFED74;
     padding: 20px;
 }
 
@@ -85,7 +85,6 @@ div, section {
 
 .intro {
 	width: 75%;
-	float:left;
 }
 
 .promo {
@@ -95,12 +94,10 @@ div, section {
 
 .articleinfo {
 	width: 60%;
-	float:left;
 }
 
 .contact {
 	width: 75%;
-	float:left;
 }
 
 /*#design {
@@ -127,25 +124,14 @@ div, section {
 
 #primarynav {
 	width: 25%;
-	float:right;
 }
 
 #roundabout {
 	width: 40%;
-	float:right;
 }
 
 #accessibility {
 	width: 40%;
-	float:right;
-}
-
-#archive {
-    clear: both;
-}
-
-#footernav {
-	float:right;
 }
 
 header img {
@@ -158,12 +144,4 @@ footer nav {
 	width: 25%;
 }
 
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-}
 
