@@ -5,7 +5,8 @@
 * {margin: 0; padding: 0; box-sizing: border-box}
 
 body {
-	background-color: #ffffff;
+	background-image: url("images/bg-test.jpg");
+    background-repeat: repeat-y;
 	font-family: 'Source Serif Pro', serif;
 	font-size: 21px;
 	line-height: 1.5em;
@@ -78,9 +79,9 @@ footer {
 }
 
 div, section {
-    background-color: #FFE2B8;
-    border: 1px black solid;
     padding: 20px;
+    /*background-color: #FFE2B8;
+    border: 1px black solid;*/
 }
 
 .intro {
