@@ -90,7 +90,7 @@ header {
 
 #primarynav a {
 	color: #ffffff;
-	border-bottom: 1px solid #99ced4;
+	border-bottom: 1px solid rgba(255,255,255,.5);
 }
 
 #primarynav a:hover{
@@ -100,13 +100,12 @@ header {
 #writingpanel {background: #98cfd2;}
 
 #secondarynav {
-	width: 25%;
 	padding: 3em 0 1em 0;
 }
 
 #secondarynav a {
 	color: #ffffff;
-	border-bottom: 1px solid #ff9a9e;
+	border-bottom: 1px solid rgba(255,255,255,.5);
 	margin: 0 20px 0 0;
 }
 
@@ -118,6 +117,11 @@ header {
 	max-width: 600px;
 	margin: auto;
 	padding: 0 2em;
+}
+
+.container2 {
+	width: 1200px;
+	margin: 0 auto;
 }
 
 .articleinfo {
