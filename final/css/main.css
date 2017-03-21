@@ -1,0 +1,222 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,800);
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro);
+
+
+* {margin: 0; padding: 0; box-sizing: border-box}
+
+body {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 21px;
+	line-height: 1.5em;
+}
+
+h2, h3, h4 {
+	font-family: 'Open Sans', serif; 
+	color: #6d6e71;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: 'Open Sans', serif;
+	font-size: 2.5em;
+	line-height: 1.2em;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: 1.3em;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-weight: 600;
+	line-height: 1em;
+}
+
+h4 {
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1em;
+}
+
+p {
+	color: #ff9a9e;
+	margin: 0 0 1em 0;
+}
+
+a {
+	text-decoration:none;
+	color:#6d6e71;
+	border-bottom: 1px solid #99ced4;
+	padding-bottom:1px;
+}
+
+a:hover {
+	border-bottom: 1px solid #6d6e71;
+}
+
+ul{
+	color:#000000;
+	color: #429991;
+	list-style-type:none;
+}
+
+header {
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    padding: 20px;
+}
+
+.intro {
+	width: 75%;
+	float:left;
+	margin: 0 0 5em 0;
+}
+
+#imagelink {
+	text-align: center;
+	margin: 4em 0 3em 0;
+}
+
+#imagelink a {
+	border-bottom: none;
+}
+
+#primarynav {
+	width: 20%;
+	float:right;
+	margin: 0 0 0 1em;
+}
+
+#primarynav a {
+	color: #ffffff;
+	border-bottom: 1px solid #99ced4;
+}
+
+#primarynav a:hover{
+	border-bottom: 1px solid #ffffff;
+}
+
+#writingpanel {
+	background-image: url(../images/bg-test-2.jpg);
+	background-size: contain;
+	background-repeat: repeat-y;
+}
+
+#secondarynav {
+	width: 25%;
+	padding: 3em 0 1em 0;
+}
+
+#secondarynav a {
+	color: #ffffff;
+	border-bottom: 1px solid #ff9a9e;
+	margin: 0 20px 0 0;
+}
+
+#secondarynav a:hover{
+	border-bottom: 1px solid #ffffff;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.articleinfo {
+	width: 45%;
+	float:left;
+	margin-right: 1.5em;
+}
+
+.articleinfo h2 {
+	margin: 0 0 .5em 0;
+}
+
+.articleinfo h3 {
+	margin: 0 0 1em 0;
+}
+
+.articleinfo h4 {
+	color: #ff9a9e;
+}
+
+#roundabout {
+	width: 45%;
+	float:right;
+	padding: 0 0 4em 0;
+}
+
+#designpanel {
+	background-color: #f4f4f4;
+}
+
+.promo {
+	width: 30%;
+	margin: 0 1.5%;
+	float: left;
+}
+
+#designpanel img {
+	width:100%;
+	margin: 5em 0 0 0;
+}
+
+#designpanel h2 {
+	font-size: 1.2em;
+	margin: .5em 0;
+	font-weight: 600; 
+}
+
+#designpanel p {
+	font-size: .9em;
+	line-height: 1.5em;
+	margin: 0 0 3em 0;
+}
+
+#archive {
+    clear: both;
+    padding: 0 0 3em 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #6d6e71;
+    padding: 2em 0 2.5em 0;
+}
+
+#footernav {
+	float:right;
+	width: 32%;
+}
+
+.contact {
+	width: 68%;
+	float:left;
+}
+
+footer a {
+	color: #ffffff;
+	border-bottom: 1px solid #99ced4;
+}
+
+footer p {
+	color: #ffffff;
+}
+
+footer h2 {
+	color: #ffffff;
+}
+
+footer a:hover {
+	border-bottom: 1px solid #ffffff;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
