@@ -11,8 +11,9 @@ body {
 }
 
 h2, h3, h4 {
-	font-family: 'Open Sans', serif; 
+	font-family: 'Open Sans', serif;
 	color: #6d6e71;
+	color: rgba(0,0,0,.5);
 }
 
 h1 {
@@ -46,7 +47,7 @@ p {
 
 a {
 	text-decoration:none;
-	color:#6d6e71;
+	color: rgba(0,0,0,.5);
 	border-bottom: 1px solid #99ced4;
 	padding-bottom:1px;
 }
@@ -96,11 +97,7 @@ header {
 	border-bottom: 1px solid #ffffff;
 }
 
-#writingpanel {
-	background-image: url(../images/bg-test-2.jpg);
-	background-size: contain;
-	background-repeat: repeat-y;
-}
+#writingpanel {background: #98cfd2;}
 
 #secondarynav {
 	width: 25%;
@@ -118,14 +115,14 @@ header {
 }
 
 .container {
-	width: 1200px;
-	margin: 0 auto;
+	max-width: 600px;
+	margin: auto;
+	padding: 0 2em;
 }
 
 .articleinfo {
-	width: 45%;
+	width: 50%;
 	float:left;
-	margin-right: 1.5em;
 }
 
 .articleinfo h2 {
@@ -137,13 +134,14 @@ header {
 }
 
 .articleinfo h4 {
-	color: #ff9a9e;
+	color: rgb(255, 255, 255);
 }
 
 #roundabout {
-	width: 45%;
-	float:right;
-	padding: 0 0 4em 0;
+	width: 50%;
+	float: left;
+	background: #fff;
+	padding: 4em 0;
 }
 
 #designpanel {
