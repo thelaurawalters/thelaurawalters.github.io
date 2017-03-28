@@ -191,8 +191,26 @@ footer {
 }
 
 #footernav {
+	width: 20%;
 	float:right;
-	width: 32%;
+	margin: 0 0 0 1em;
+}
+
+footer a {
+	color: #ffffff;
+	border-bottom: 1px solid #99ced4;
+}
+
+footer p {
+	color: #ffffff;
+}
+
+footer h2 {
+	color: #ffffff;
+}
+
+footer a:hover {
+	border-bottom: 1px solid #ffffff;
 }
 
 .contact {
@@ -203,6 +221,7 @@ footer {
 footer a {
 	color: #ffffff;
 	border-bottom: 1px solid #99ced4;
+	display: inline-block;
 }
 
 footer p {
@@ -309,10 +328,27 @@ footer a:hover {
 		border-bottom: 1px solid #ffffff;
 	}
 
+	.container {
+		width: 100%;
+		margin: 0 auto;
+	}
+
 	.promo {
-		width: auto;
-		margin: 0 1.5%;
 		float: none;
+		width: 100%;
+		margin: auto;
+	}
+
+	#designpanel img {
+		margin: 3em 0 1em 0;
+	}
+
+	#designpanel p {
+		margin: 0 0 .5em 0;
+	}
+
+	#archive {
+    padding: 1.5em 0 3em 0;
 	}
 
 }
