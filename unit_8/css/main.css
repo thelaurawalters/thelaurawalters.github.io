@@ -48,12 +48,8 @@ p {
 a {
 	text-decoration:none;
 	color: rgba(0,0,0,.5);
-	border-bottom: 1px solid #99ced4;
-	padding-bottom:1px;
-}
-
-a:hover {
-	border-bottom: 1px solid #6d6e71;
+	/*border-bottom: 1px solid #99ced4;
+	padding-bottom:1px;*/
 }
 
 ul{
@@ -198,21 +194,12 @@ footer {
 	margin: 0 0 0 1em;
 }
 
-footer a {
-	color: #ffffff;
-	border-bottom: 1px solid #99ced4;
-}
-
 footer p {
 	color: #ffffff;
 }
 
 footer h2 {
 	color: #ffffff;
-}
-
-footer a:hover {
-	border-bottom: 1px solid #ffffff;
 }
 
 .contact {
@@ -220,10 +207,15 @@ footer a:hover {
 	float:left;
 }
 
-footer a {
+#footernav a {
+	display: block;
 	color: #ffffff;
-	border-bottom: 1px solid #99ced4;
-	display: inline-block;
+}
+#footernav a span {
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+#footernav a:hover span{
+	border-bottom: 1px solid #ffffff;
 }
 
 footer p {
@@ -232,10 +224,6 @@ footer p {
 
 footer h2 {
 	color: #ffffff;
-}
-
-footer a:hover {
-	border-bottom: 1px solid #ffffff;
 }
 
 @media only screen and (max-width: 1310px){
@@ -283,6 +271,7 @@ footer a:hover {
 
 	#primarynav a {
 		margin: 0 1em 2em 0;
+		display: inline-block;
 	}
 
 	.container {
