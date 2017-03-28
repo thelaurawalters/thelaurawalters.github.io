@@ -1,0 +1,328 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,800);
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro);
+
+
+* {margin: 0; padding: 0; box-sizing: border-box}
+
+body {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 21px;
+	line-height: 1.5em;
+}
+
+h2, h3, h4 {
+	font-family: 'Open Sans', serif;
+	color: #6d6e71;
+	color: rgba(0,0,0,.5);
+}
+
+h1 {
+	color: #ffffff;
+	font-family: 'Open Sans', serif;
+	font-size: 2.5em;
+	line-height: 1.2em;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: 1.3em;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-weight: 600;
+	line-height: 1em;
+}
+
+h4 {
+	font-size: 1em;
+	font-weight: 600;
+	line-height: 1em;
+}
+
+p {
+	color: #ff9a9e;
+	margin: 0 0 1em 0;
+}
+
+a {
+	text-decoration:none;
+	color: rgba(0,0,0,.5);
+	border-bottom: 1px solid #99ced4;
+	padding-bottom:1px;
+}
+
+a:hover {
+	border-bottom: 1px solid #6d6e71;
+}
+
+ul{
+	color: #000000;
+	color: #429991;
+	list-style-type: none;
+}
+
+header {
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    padding: .8em;
+}
+
+.intro {
+	width: 75%;
+	float:left;
+	margin: 0 0 5em 0;
+}
+
+#imagelink {
+	text-align: center;
+	margin: 4em 0 3em 0;
+}
+
+#imagelink a {
+	border-bottom: none;
+}
+
+#primarynav {
+	width: 20%;
+	float:right;
+	margin: 0 0 0 1em;
+}
+
+#primarynav a {
+	display: inline-block;
+	color: #ffffff;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+#primarynav a:hover{
+	border-bottom: 1px solid #ffffff;
+}
+
+#writingpanel {
+	background: #98cfd2;
+}
+
+#secondarynav {
+	padding: 3em 0 1em 0;
+}
+
+#secondarynav a {
+	color: #ffffff;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+	margin: 0 1em 0 0;
+}
+
+#secondarynav a:hover{
+	border-bottom: 1px solid #ffffff;
+}
+
+.container {
+	max-width: 85%;
+	margin: auto;
+	padding: 0 2em;
+}
+
+.containermain {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.articleinfo {
+	width: 50%;
+	float:left;
+}
+
+.articleinfo h2 {
+	margin: 0 0 .5em 0;
+}
+
+.articleinfo h3 {
+	margin: 0 0 1em 0;
+}
+
+.articleinfo h4 {
+	color: rgb(255, 255, 255);
+}
+
+#roundabout {
+	width: 50%;
+	float: left;
+	background: #fff;
+	padding: 4em 0;
+}
+
+#designpanel {
+	background-color: #f4f4f4;
+}
+
+.promo {
+	width: 30%;
+	margin: 0 1.5%;
+	float: left;
+}
+
+#designpanel img {
+	width:100%;
+	margin: 5em 0 0 0;
+}
+
+#designpanel h2 {
+	font-size: 1.2em;
+	margin: .5em 0;
+	font-weight: 600; 
+}
+
+#designpanel p {
+	font-size: .9em;
+	line-height: 1.5em;
+	margin: 0 0 3em 0;
+	color: rgba(109, 110, 113, 0.7);
+}
+
+#archive {
+    clear: both;
+    padding: 0 0 3em 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #6d6e71;
+    padding: 2em 0 2.5em 0;
+}
+
+#footernav {
+	float:right;
+	width: 32%;
+}
+
+.contact {
+	width: 68%;
+	float:left;
+}
+
+footer a {
+	color: #ffffff;
+	border-bottom: 1px solid #99ced4;
+}
+
+footer p {
+	color: #ffffff;
+}
+
+footer h2 {
+	color: #ffffff;
+}
+
+footer a:hover {
+	border-bottom: 1px solid #ffffff;
+}
+
+@media only screen and (max-width: 1310px){
+	
+	body {
+		font-size: 18px;
+	}
+
+	.containermain {
+		width: 90%;
+	}
+
+	header {
+    	padding: .5em;
+	}
+
+	#imagelink {
+		text-align: center;
+		margin: 2.5em 0 2em 0;
+	}
+
+	.intro {
+		margin: 0 0 3em 0;
+	}
+
+}
+
+@media only screen and (max-width: 1200px) {
+	
+	.containermain {
+		width: 90%;
+	}
+
+	.intro {
+		width: auto;
+		float: none;
+		margin: 0 0 2.5em 0;
+	}
+
+	#primarynav {
+		width: auto;
+		float:none;
+		text-align: center;
+	}
+
+	#primarynav a {
+		margin: 0 1em 2em 0;
+	}
+
+	.container {
+		padding: 0 1em;
+	}
+
+	#roundabout {
+		padding: 2.5em 0;
+	}
+
+	#secondarynav {
+		padding: 2.5em 0 1em 0;
+	}
+
+	#designpanel img {
+		margin: 3.3em 0 0 0;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+	.articleinfo {
+		width: auto;
+		float: none;
+	}
+
+	#roundabout {
+		width: auto;
+		float: none;
+		background: #98cfd2;
+		padding: 2.5em 0;
+	}
+
+	p {
+		color: #ffffff;
+	}
+
+	.container a {
+		color: #ffffff;
+		border-bottom: 1px solid rgba(255,255,255,.5);
+	}
+
+	.container a:hover{
+		border-bottom: 1px solid #ffffff;
+	}
+
+	.promo {
+		width: auto;
+		margin: 0 1.5%;
+		float: none;
+	}
+
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
