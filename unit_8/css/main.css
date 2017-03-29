@@ -351,10 +351,13 @@ footer .archive {
 
 	.container a {
 		color: #ffffff;
+	}
+
+	#readmore {
 		border-bottom: 1px solid rgba(255,255,255,.5);
 	}
 
-	.container a:hover{
+	#readmore:hover {
 		border-bottom: 1px solid #ffffff;
 	}
 
